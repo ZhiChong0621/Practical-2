@@ -1,7 +1,7 @@
-message = input("Enter a string").strip()
+message = input("Enter a string :  ").strip()
 
 words = message.split()
-acronym = "" 
+acronym = ""
 
 for word in words:
     acronym += word[0].upper()
